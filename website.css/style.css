@@ -1,10 +1,23 @@
-body {
-    
-    background-color:black;
+h1 {
+    margin-top: 90px;
 }
 
-h1{
-   color:white;
+ h1 h2 {
+   color:#FFFFFF;
    text-align: center;
-   margin-top: 90px;
+   }
+
+ .hero {
+    background-color:#202020;
+    text-align: center;
+    
+}
+
+.hero p {
+    color: #FFFFFF;
+}
+
+.btn-primary {
+  color:#202020;
+  background-color: #FFFFFF;
 }

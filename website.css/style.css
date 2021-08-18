@@ -1,9 +1,11 @@
 h1 {
-    margin-top: 90px;
- color: #FFFFFF;
+margin-top:60px;
+ color: #FFFFFF; 
+ font-size: 25px;
 }
 h2 {
     color:#FFFFFF;
+    font-size: 55px;
  }
 
  body {
@@ -18,11 +20,35 @@ h2 {
  
  p {
     color: #FFFFFF;
+    margin-top: 50px;
+    text-align:center;
+    line-height:20px;
+    margin-right:130px;
+   
+}
+.about-me p {
+  font-size: 15px;
+  margin-right: 100px;
+}
+
+
+.about-me h2 {
+  font-size: 20px; 
+  color: palevioletred;
 }
 
 .btn-primary {
   color:#202020;
   background-color: #FFFFFF;
+  text-decoration-color: none;
+  font-weight: bold;
+ 
+}
+.btn-primary:active:hover {
+  color:#202020;
+  background-color: #FFFFFF;
+  text-decoration-color: none;
+  font-weight: bold;
 }
 .site-footer {
     position:fixed;
@@ -35,6 +61,14 @@ h2 {
     background-color:#282323;
   
   }
-  .fluid-rounded {
-      text-align: center;
+  .img-fluid-rounded {
+    margin-top: 20px;
+  width: 10px;
+  display: flex;
+  justify-content: flex-start;
+      display: flex;
+      justify-content: flex-start;
   }
+  
+
+

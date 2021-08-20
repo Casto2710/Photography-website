@@ -120,9 +120,9 @@ footer.social-links a {
 .contact-me h3 {
   text-align: center;
   color:palevioletred;
-  line-height: 10px;
+  font-size: 30px;
 }
-.contact p {
+.contact-me p {
   text-align: center;
   color: #FFFFFF;
   margin-bottom:100px;
@@ -130,11 +130,14 @@ footer.social-links a {
   }
 
   .contact-me a {
-    text-align: right;
+    text-align: center;
     color: #FFFFFF;
    margin-left: 100px;
     }
-
+    .contact-me {
+      text-align: center;
+      margin-left: 80px;
+    }
 
   @media (max-width: 900px) {
     h1 {

@@ -85,14 +85,17 @@ footer.social-links a {
 } 
  
 
-.btn-primary {
+.btn-secondary-1 {
   color:#202020;
   background-color: #FFFFFF;
   text-decoration-color: none;
   font-weight: bold;
  
 }
-
+.btn-secondary-1:hover {
+  background-color:rgb(141, 138, 138);
+  color:#FFFFFF;
+}
 .btn-secondary {
   color:#202020;
   background-color: #FFFFFF;
@@ -100,12 +103,7 @@ footer.social-links a {
   font-weight: bold;
   margin-right: 280px;
 }
-.btn-primary:active:hover {
-  color:#202020;
-  background-color: #FFFFFF;
-  text-decoration-color: none;
-  font-weight: bold;
-}
+
 .site-footer {
     position:fixed;
     bottom:0;

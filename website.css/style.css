@@ -43,13 +43,23 @@ footer {
   background-color:rgb(33,37,41)
 }
 
-footer.social-links a {
-  margin: 80px;
+footer.social-links  {
+  text-align: center;
+ 
   color:#FFFFFF;
-  padding: 50px;
-  border-radius:50px;
-  font-size:40px ;
-} 
+ border-radius:10px;
+  font-size:20px ;
+  margin-left: 100px;
+  }
+ 
+  .footer a {
+    text-align: center;
+    color: #FFFFFF;
+   margin-left: 100px;
+   margin-bottom: 0px;
+   border-radius:10px;
+  font-size:20px ;
+  }
 
 .gallery  {
   color:#FFFFFF;
@@ -151,11 +161,12 @@ footer.social-links a {
   color: #FFFFFF;
   margin-bottom:20px;
 }
-  .contact-me a {
-    text-align: center;
-    color: #FFFFFF;
-   margin-left: 100px;
-    }
+  
+    
+  
+  
+  
+
    
     .hero {
       padding: 80px 20px;
@@ -170,6 +181,11 @@ footer.social-links a {
       padding: 0;
       text-align: center;
     }
+
+
+
+
+
 
     @media (max-width:856px) {
     .index-container  {
